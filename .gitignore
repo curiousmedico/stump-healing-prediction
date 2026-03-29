@@ -40,9 +40,10 @@ wheels/
 .ipynb_checkpoints/
 *.ipynb
 
-# Data (keep raw data private)
+# Data (keep raw data private) - but include training data and examples
 *.csv
 !example_*.csv
+!data/training_data.csv
 
 # Output files
 *.png
